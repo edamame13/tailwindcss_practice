@@ -1,0 +1,23 @@
+# Node.js 依存パッケージ
+node_modules/
+
+# 出力されたCSS（ビルド生成物）
+src/output.css
+
+# 一時ファイル / ログ
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS 特有のファイル
+.DS_Store
+
+# 環境変数ファイル（もし使う場合）
+.env
+.env.local
+.env.*.local
+
+# エディタ関連（VSCodeなど）
+.vscode/
+.idea/
